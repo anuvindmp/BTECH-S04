@@ -1,1 +1,1 @@
-% % tripleangleD4D4RD4
+tripleangle

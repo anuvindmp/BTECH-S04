@@ -1,30 +1,37 @@
-%parameters
-fs = 1000;            
-t = 0:1/fs:1;         
-fc = 100;             
-fm = 20;              
-Am = 5;               
-Ac = 5;   
-%carrier and message signals
-carrier = Ac*sin(2*pi*fc*t);           
-message = Am*sin(2*pi*fm*t); 
-%modulation indices(m = 1, 0.5, 1.5)
-m1 = input("Enter modulation index :");
-amWave1 = Ac*(1 + m1 * sin(2*pi*fm*t)) .* sin(2*pi*fc*t);
-% Plot the signals 
-figure; 
-subplot(3,1,1); 
-plot(t, message, 'b'); 
-title('Message Signal'); 
-xlabel('Time (s)'); 
-ylabel('Amplitude'); 
-subplot(3,1,2); 
-plot(t, carrier, 'r'); 
-title('Carrier Signal'); 
-xlabel('Time (s)'); 
-ylabel('Amplitude'); 
-subplot(3,1,3); 
-plot(t, amWave1, 'k'); 
-title('AM Wave (Under Modulation)'); 
-xlabel('Time (s)'); 
-ylabel('Amplitude'); 
+clc;
+close all;
+clear all;
+
+m = [0.5 1 1.5];
+
+Am = 5; %Amp. of modulating signal
+fm = 20; %frequency of modulating signal
+Tm = 1/fm;
+t = 0:0.001:1;
+ym = Am*sin(2*pi*fm*t);
+
+subplot(5,1,1);
+plot(t,ym)
+title('Message Signal');
+
+%Carrier signal
+
+Ac = Am;
+fc = 100;
+Tc = 1/fc;
+yc = Ac*sin(2*pi*fc*t);
+subplot(5,1,2);
+plot(t,yc)
+grid on;
+title('Carrier Signal');
+
+%AM Modulation
+index = 0;
+titles = {'index=0.5', 'index=1', 'index=1.5'};
+for i = m
+    subplot(5,1,3+index);
+    index = index + 1;
+    y = Ac * (1+i*sin(2*pi*fm*t)).*sin(2*pi*fc*t);
+    plot(t,y)
+    title(titles{index});
+end
