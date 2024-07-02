@@ -5,16 +5,20 @@
 4. Recurrence relation
 	i. Decreasing Fn
 	ii. Dividing Fn
-	iii. Root Fn X
-5. Recurrence relation - Unbalanced Tree X
-6. Greedy approach - Knapsack X
-7. Quick Sort X
-8. Merge Sort X
-9. Binary Search X
-10.Strassen's Matrix Multiplication X
-11.Huffman coding X
-12. Greedy approach - Job sequencing X
-13. Memoization - DP X
-14. Multistage graph - DP X
+	iii. Root Fn 
+5. Recurrence relation - Unbalanced Tree 
+6. Greedy approach - Knapsack 
+7. Quick Sort 
+8. Merge Sort 
+9. Binary Search 
+10.Strassen's Matrix Multiplication 
+11.Huffman coding 
+12. Greedy approach - Job sequencing 
+13. Memoization - DP 
+14. Multistage graph - DP 
 15. Matrix Chain multiplication
 16.0/1 knapsack using dp
+17. N-Queens
+18. Connected Components - KOSARAJU'S ALGO
+19. Topological ordering
+20. Travelling Salesman - reduced cost tree
