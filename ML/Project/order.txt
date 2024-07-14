@@ -1,0 +1,17 @@
+introduction
+
+datasets
+-> explain each of the 6
+
+EDA
+-> each eda
+
+models
+-> architecture
+-> pipeline
+
+Results
+-> how many fits
+-> hyperparameter tuning/tuned params
+-> conf matrix
+-> perfomance metrics

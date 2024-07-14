@@ -1,0 +1,10 @@
+4DoF scara : pick and place robotic manipulator for industry assembly line.
+
+=> main concerns in existing robotic manipulators : 
+	1. lack of precision and control (normal 4DoF manipulators)
+	2. smaller workspace (within scara)
+	 -> even if workspace is large, higher inertia prevents faster movements
+
+Major application : 
+-> in agricultural field
+
