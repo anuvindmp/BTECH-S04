@@ -1,0 +1,8 @@
+ live demonstration of our SCARA robot simulation using RoboDK. This simulation allows us to visualize and validate the robot's movements in a virtual environment before implementing them in real-world applications. 
+
+here we can see the  simulation environment in RoboDK. Here, we can see a virtual representation of our SCARA robot, complete with its workspace and tools
+
+To begin, let's observe how the SCARA robot moves in this virtual space. We'll demonstrate both joint movements, which control its configuration, and Cartesian movements, defining precise positions in XYZ coordinates.
+
+
+

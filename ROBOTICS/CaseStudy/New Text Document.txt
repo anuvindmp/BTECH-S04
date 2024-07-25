@@ -1,0 +1,31 @@
+
+### Slide 10: Literature Review (cont.)
+
+slide 11
+
+"Let's continue with our literature review. First, we have a paper on the **Development of a 4-DOF SCARA Robot with 3R1P for Pick-and-Place Tasks**. This paper describes a 4-DOF SCARA robot specifically designed for industrial use. It focuses on several key areas including design technology, control systems, applications, and performance evaluation. Notable advancements highlighted in the paper include hybrid mechanisms and advanced control algorithms. The practical applications mentioned include material handling and assembly lines. For future directions, the paper suggests enhancements in precision and the integration of vision systems."
+
+slide 12
+
+"Next, the **Design and Fabrication of SCARA 4-DOF Robotic Manipulator** is detailed. This paper discusses the mechanical design, kinematic modeling, and control strategies of a 4-DOF SCARA robot. The robot features three revolute joints and one prismatic joint, which enable efficient movements. Advanced control strategies like ADRC and vision-based object detection are utilized to enhance stability and autonomy. This design is suitable for high-speed industrial applications such as assembly lines. Future research will focus on improving control systems and integrating vision-based technologies."
+
+### Slide 12
+
+"Continuing with the literature review, the third paper is on the **Design and development of a new 4 DOF hybrid robot with Scara motion for high-speed operations in large workspaces**. This paper focuses on optimizing mechanical structures, kinematic modeling, control strategies, and applications across various industries. It suggests future integration of AI and human-robot collaboration to further industrial advancements."
+
+### Slide 13: Design Specification of a 4-DOF SCARA
+
+
+"Now, let's move on to the design specification of the 4-DOF SCARA robot. The configuration includes three revolute joints (3R) and one prismatic joint (1P), allowing for precise horizontal movements and vertical positioning. This setup makes it ideal for industrial automation. The design focuses on high-speed operation, accuracy, and ease of programming, ensuring efficient and reliable performance in applications such as assembly, packaging, and material handling."
+
+
+The robot features a robust yet lightweight frame constructed from high-strength aluminum alloys, providing durability and stability while minimizing weight. 
+It includes three revolute joints for rotational movements around the base, shoulder, and elbow, allowing a wide range of motion in the horizontal plane. The prismatic joint enables precise vertical adjustments, essential for accurate pick-and-place operations. 
+The arm segments are designed to balance strength and reach, while the base is firmly anchored to ensure stability during high-speed operations. Integrated cabling and compact actuators reduce interference and enhance operational efficiency.
+
+Slide 14: Design Specification - Components
+
+"The components of our design include actuators and motors, preferably stepper or servo motors. These can be placed directly at each joint or remotely with belts and pulleys. The control system is managed by a microcontroller or PLC, featuring a user-friendly programming interface. A feedback system, using encoders, ensures precise positioning. Additionally, various sensors such as rotary encoders or potentiometers for position, force sensors at the end effector, and proximity sensors for collision avoidance enhance precision and safety."
+
+
+That concludes my presentation 
