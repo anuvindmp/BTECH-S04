@@ -1,7 +1,8 @@
 1. Time Complexity Analysis
 2. Asymptotic Analysis
-3. l'hopital rule
-	-> n! approximation(sterling's approximation)
+
+3. l'hopital rule X
+	-> n! approximation(sterling's approximation) X
 
 4. Recurrence relation
 	i. Decreasing Fn
@@ -10,7 +11,7 @@
 5. Recurrence relation - Unbalanced Tree
  
 6. Greedy approach - Knapsack X 
-7. Quick Sort 
+7. Quick Sort X
 
 [Algos And TC]
 
